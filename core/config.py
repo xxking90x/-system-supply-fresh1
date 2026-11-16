@@ -1,0 +1,5 @@
+class Settings:
+    SECRET_KEY = "freshsupply_super_secret_key"
+    ALGORITHM = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES = 30
+settings = Settings()
